@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://kit.fontawesome.com/c2ff852413.js"></script>
-    <link rel="stylesheet" href="/dist/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
     <title>View My Work</title>
 </head>
 
@@ -20,11 +20,13 @@
 
         <nav class="menu">
             <div class="menu-branding">
-                <div class="portrait"></div>
+                    <a href="index.html">
+                        <div class="portrait"></div>
+                    </a>
             </div>
             <ul class="menu-nav">
                 <li class="nav-item">
-                    <a href="home.html" class="nav-link">Home</a>
+                    <a href="index.html" class="nav-link">Home</a>
 
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">About me</a>
@@ -35,14 +37,14 @@
 
                 </li>
                 <li class="nav-item">
-                    <a href="contact.html" class="nav-link">How to reach me</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
 
                 </li>
             </ul>
         </nav>
     </header>
 
-    <main id="about">
+    <main id="work">
         <h1 class="le-heading">
             My <span class="text-secondary">Work</span>
         </h1>
@@ -51,35 +53,36 @@
         </h2>
         <div class="projects">
             <div class="item">
-                <a href="#!">
-                    <img src="/dist/img/projects/Jenia.jpg" alt="photographer-site">
+                <a href="https://jennplanet.netlify.com">
+                    <img src="img/projects/JennPlanet.jpg" alt="jenn-site">
                 </a>
-                <a href="#" class="btn-light">
+                <a href="https://jennplanet.netlify.com" class="btn-light">
                     <i class="fas fa-eye"> Project</i>
                 </a>
-                <a href="#" class="btn-dark">
+                <a href="https://github.com/wwwshayronen/jenn-planet" class="btn-dark">
                     <i class="fab fa-github"> Github</i>
                 </a>
             </div>
             <div class="item">
-                <a href="#!">
-                    <img src="/dist/img/projects/Jenia.jpg" alt="photographer-site">
+                <a href="https://gsx5y.csb.app/">
+                    <img src="/dist/img/projects/ToDo.png" alt="ToDo-List">
                 </a>
-                <a href="#" class="btn-light">
+                <a href="https://gsx5y.csb.app/" class="btn-light">
                     <i class="fas fa-eye"> Project</i>
                 </a>
-                <a href="#" class="btn-dark">
+                <a href="https://codesandbox.io/s/condescending-browser-gsx5y" class="btn-dark">
                     <i class="fab fa-github"> Github</i>
                 </a>
             </div>
+
             <div class="item">
-                <a href="#!">
-                    <img src="/dist/img/projects/Jenia.jpg" alt="photographer-site">
+                <a href="https://angry-galileo-3de023.netlify.com/">
+                    <img src="data:image/jpeg;base64,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" alt="wheatherApp">
                 </a>
-                <a href="#" class="btn-light">
+                <a href="https://angry-galileo-3de023.netlify.com/ class="btn-light">
                     <i class="fas fa-eye"> Project</i>
                 </a>
-                <a href="#" class="btn-dark">
+                <a href="https://github.com/wwwshayronen/WhetherApp" class="btn-dark">
                     <i class="fab fa-github"> Github</i>
                 </a>
             </div>

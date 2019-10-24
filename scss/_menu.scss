@@ -82,10 +82,10 @@
               transform: translate3d(0, 0, 0);
           }
 
-          .portrait {
-              width: 250px;
-              height: 250px;
-              background: url('https://scontent.ftlv1-1.fna.fbcdn.net/v/t1.0-1/c2.0.240.240a/p240x240/28684999_10211620553768705_2501516825259439832_n.jpg?_nc_cat=105&_nc_oc=AQmb-_BY7mOeVsrCATGVDEYuuuFWpUf28AD1kMGjDyU1oL59HmfmGb-hzHrBeGNybtY&_nc_ht=scontent.ftlv1-1.fna&oh=5b5bf5c4c171d7d61af1dc9d37277b66&oe=5DEEB96C');
+          .portrait{
+              width: 100%;
+              height: 100%;
+              background: url('/dist/img/small-profile-pic.jpg');
               border-radius: 50%;
               border: solid 3px $secondary-color;
           }
@@ -118,8 +118,6 @@
         }
     }
 }
-
-// Ask Yariv why that for loop doesn't working.
 
 @for $x from 1 through 4 {
     .nav-item:nth-child(#{$x}) {
