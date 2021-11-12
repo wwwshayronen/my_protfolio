@@ -8,7 +8,7 @@
 
     .btn-line {
         width: 48px;
-        height: 5px;
+        height: 5px;    
         margin: 0 0 5px 0;
         background:#0079bf;
         color: #0079bf;
@@ -43,7 +43,7 @@
     position: fixed;
     top: 0;
     width: 100%;
-    opacity: 0.9;
+    opacity: 0.99;
     visibility: hidden;
 
     &.show {
@@ -85,10 +85,14 @@
           .portrait{
             width: 250px;
             height: 250px;
-            background: url('/img/small-profile-pic.jpg');
+            background: url('/img/AvatarMaker-me.png');
             background-size: 100%;
             border-radius: 50%;
             border: solid 3px $secondary-color;
+          }
+
+          .portrait a {
+            opacity: 1;
           }
       }
     .nav-item {

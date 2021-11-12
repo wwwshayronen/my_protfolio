@@ -10,7 +10,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon_io/favicon-16x16.png">
     <link rel="manifest" href="./img/favicon_io/site.webmanifest">
     <script src="https://kit.fontawesome.com/c2ff852413.js" crossorigin="anonymous"></script>
-
+    <!-- Hotjar Tracking Code for https://shayronen.netlify.com/ -->
+    <script>
+      (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:2697844,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
     <title>View My Work</title>
   </head>
 
@@ -25,7 +35,7 @@
       <nav class="menu">
         <div class="menu-branding">
           <a href="index.html">
-            <img src="/img/small-profile-pic.jpg" class="portrait"></img>
+            <img src="img/AvatarMaker-me.png" class="portrait"></img>
           </a>
         </div>
         <ul class="menu-nav">
@@ -54,6 +64,54 @@
       </h2>
       <div class="projects">
         <div class="item">
+          <a href="https://trello-clone-mern-stack.herokuapp.com/" target="_blank">
+            <img src="img/projects/trello.jpg" alt="trello" />
+            <h2 class="project-title">Trello clone</h2>
+            <p class="project-description">
+              Trello clone.
+              Tech stack: express.js, MongoDB, Auth0, React.js and Ant design
+            </p>
+          </a>
+          <a
+            href="https://trello-clone-mern-stack.herokuapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+            <i  class="fa fa-eye"><span class="project-text">Project</span></i>
+          </a>
+          <a
+            href="https://github.com/wwwshayronen/Trello/"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fa fa-github"> Github/Sandbox</i>
+          </a>
+        </div>
+        <div class="item">
+          <a>
+            <img class="coming-soon" src="./img/projects/React-hooks.png" alt="React" />
+            <h2 class="project-title">Budget manager app<br></h2>
+            <p class="project-description">
+              At a time of severe economic crisis, I decided to develop the above project for the sake of the general public and myself. On the client side, I use React.js. In terms of the server-side, I'm using Node.js, express.js, and MongoDB (Atlas)
+            </p>
+          </a>
+          <a
+            href="https://trello-clone-mern-stack.herokuapp.com/"
+            class="btn-light"
+            target="_blank"
+          >
+          
+            <i  class="fa fa-eye" ><span class="project-text">Project</span></i>
+          </a>
+          <a
+            href="https://github.com/wwwshayronen/Trello/"
+            class="btn-dark"
+            target="_blank"
+          >
+            <i class="fa fa-github"> Github/Sandbox</i>
+          </a>
+        </div>
+        <div class="item">
           <a href="https://mern-stack-scrm.herokuapp.com" target="_blank">
             <img src="img/projects/scrm.png" alt="scrm" />
             <h2 class="project-title">SCRM - Simple CRM</h2>
@@ -67,14 +125,14 @@
             class="btn-light"
             target="_blank"
           >
-            <i  class="fa fa-eye">Project</i>
+            <i  class="fa fa-eye"><span class="project-text">Project</span></i>
           </a>
           <a
             href="https://github.com/wwwshayronen/scrm/"
             class="btn-dark"
             target="_blank"
           >
-            <i class="fa fa-github"> Github/Sandbox (Private repo, Ask me for permission)</i>
+            <i class="fa fa-github"> Github/Sandbox</i>
           </a>
         </div>
         <div class="item">
@@ -91,7 +149,7 @@
             class="btn-light"
             target="_blank"
           >
-            <i class="fa fa-eye"> Project</i>
+            <i class="fa fa-eye"><span class="project-text">Project</span></i>
           </a>
           <a
             href="https://github.com/wwwshayronen/jenn-planet"
@@ -111,7 +169,7 @@
             </p>
           </a>
           <a href="https://r6xzc.csb.app" class="btn-light">
-            <i class="fa fa-eye"> Project</i>
+            <i class="fa fa-eye"><span class="project-text">Project</span></i>
           </a>
           <a
             href="https://codesandbox.io/s/todolistreacthooks-r6xzc"
@@ -135,7 +193,7 @@
             </p>
           </a>
           <a href="https://z3js8.csb.app/" class="btn-light">
-            <i class="fa fa-eye"> Project</i>
+            <i class="fa fa-eye"><span class="project-text">Project</span></i>
           </a>
           <a
             href="https://codesandbox.io/s/dazzling-glade-z3js8?file=/src/index.js"
@@ -159,7 +217,7 @@
             class="btn-light"
             target="_blank"
           >
-            <i class="fa fa-eye"> Project</i>
+            <i class="fa fa-eye"><span class="project-text">Project</span></i>
           </a>
           <a
             href="https://github.com/wwwshayronen/create-react-app-photo-search"
@@ -169,56 +227,8 @@
             <i class="fa fa-github"> Github/Sandbox</i>
           </a>
         </div>
-        <div class="item">
-          <a href="https://trello-clone-mern-stack.herokuapp.com/" target="_blank">
-            <img src="img/projects/trello.jpg" alt="trello" />
-            <h2 class="project-title">Trello clone</h2>
-            <p class="project-description">
-              Trello clone, my biggest and most challenging project.
-              Tech stack: express.js, MongoDB, Auth0, React.js and Ant design
-            </p>
-          </a>
-          <a
-            href="https://trello-clone-mern-stack.herokuapp.com/"
-            class="btn-light"
-            target="_blank"
-          >
-            <i  class="fa fa-eye">Project</i>
-          </a>
-          <a
-            href="https://github.com/wwwshayronen/Trello/"
-            class="btn-dark"
-            target="_blank"
-          >
-            <i class="fa fa-github"> Github</i>
-          </a>
-        </div>
-        <div class="item-comingsoon">
-          <a>
-            <img class="coming-soon" src="./img/projects/React-hooks.png" alt="React" />
-            <h2 class="project-title">Budget manager app<br> <strong class="soon">Coming Soon...</strong></h2>
-            <p class="project-description">
-              At a time of severe economic crisis, I decided to develop the
-              above project for the sake of the general public and myself. In the
-              client-side, I use React.js. In terms of the server-side, I used
-              AWS technologies (DynamoDB, Lambda, API gateway, Cognito, and S3).
-            </p>
-          <!-- </a>
-          <a
-            href="https://photos-search.netlify.com/"
-            class="btn-light"
-            target="_blank"
-          >
-            <i class="fas fa-eye"> Project</i>
-          </a>
-          <a
-            href="https://github.com/wwwshayronen/create-react-app-photo-search"
-            class="btn-dark"
-            target="_blank"
-          >
-            <i class="fab fa-github"> Github/Sandbox</i>
-          </a> -->
-        </div>
+
+        
       </div>
     </main>
 
